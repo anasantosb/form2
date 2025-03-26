@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML - PARTE 2</title>
+  </head>
+  <body background="img/wave-haikei.svg" style="background-repeat: no-repeat; background-size: cover;">
+    <center><font face="Serifada"><h2>CADASTRO DE ENVIO DO SEU PRODUTO</h2></font></center>
+    <center><img src="img/cream.png" width="100px" height="100px"></center>
+    <br>
+    <form action="form2.ntml" method="POST">
+      <table cellspacing="5" cellpadding="5" width="40%" bgcolor="#f4f3ee" align="center">
+        <tr>
+          <td colspan="5"><font face="Serifada"><center>Descrição do seu produto: Maquiagem - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</center></font></td>
+        </tr>
+        <tr>
+          <td><font face="Serifada">Nome</font></td>
+          <td colspan="3">
+            <input type="text" name="nome" size="85" required>
+          </td>
+        </tr>
+        <tr>
+          <td><font face="Serifada">E-mail</font></td>
+          <td colspan="3">
+            <input type="text" name="email" size="85" required>
+          </td>
+        </tr>
+        <tr>
+      <td><font face="Serifada">Endereço</font></td>
+          <td>
+            <input type="text" name="endereco" size="40" required>
+          </td>
+          <td><font face="Serifada">Número</font></td>
+          <td>
+            <input type="text" name="num" size="20" required>
+          </td>
+        </tr>
+        <tr>
+          <td><font face="Serifada">CEP</font></td>
+          <td>
+            <input type="text" name="cep" size="20" placeholder="xxxxx-xxx" required>
+          </td>
+          <td><font face="Serifada">Bairro</font></td>
+          <td>
+            <input type="text" name="bairro" size="20" required>
+          </td>
+        </tr>
+        <tr>
+          <td><font face="Serifada">Complemento</font></td>
+          <td>
+            <input type="text" name="complemento" size="20">
+          </td>
+          <td><font face="Serifada">Cidade</font></td>
+          <td>
+            <input type="text" name="cidade" size="20" required>
+          </td>
+        </tr>
+        <tr>
+          <td><font face="Serifada">Telefone</font></td>
+          <td>
+            <input type="text" name="telefone" placeholder="(xx) xxxxx-xxxx" size="20" required>
+          </td>
+          <td><font face="Serifada">Estado</font></td>
+          <td>
+            <select name="estado">
+              <option value="">Selecione</option>
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+              <option value="AP">Amapá</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="DF">Distrito Federal</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiás</option>
+              <option value="MA">Maranhão</option>
+              <option value="MT">Mato Grosso</option>
+              <option value="MS">Mato Grosso do Sul</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PA">Pará</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="PE">Pernambuco</option>
+              <option value="PI">Piauí</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RN">Rio Grande do Norte</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="RO">Rondônia</option>
+              <option value="RR">Roraima</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+              <option value="SE">Sergipe</option>
+              <option value="TO">Tocantins</option>
+              <option value="EX">Estrangeiro</option>
+          </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3"><br><font face="Serifada">Efetue o pagamento para continuar:</font></td>
+          <td><br><a href="form2.html" style="color: black;">BOLETO - PIX - CARTÃO</a></td>
+        </tr>
+        <td colspan="4" align="center">
+          <br>
+          <input type="reset" value="Limpar Formulário">
+          <input type="submit" value="Finalizar">
+        </td>
+      </table>
+  
+      </table>
+    </form>
+  </body>
+</html>
